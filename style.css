@@ -1,0 +1,1429 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+   
+    background-color: brown;
+    background-image: url(image/banner-bg.png);
+    
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlinks{
+    list-style-type: none;
+}
+.navlinks a{
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
+.logo{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: azure;
+    margin-left: 20px;
+}
+.checkbtn{
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+/* Slideshow container */
+.slider-cont {
+    display: flex;
+   
+ 
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: backgrounf 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  .container2 { 
+    
+    width: 90%;
+    height: 80vh;
+    margin-left: 70px;
+    
+   
+  
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+figure1 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    animation: 7s slide infinite ease;
+}
+
+.slide1 {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide1 h1 {
+    color: #ffff;
+    position: absolute;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 200%;
+    margin-left: 0px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 125px;
+}
+.slide1 h2 {
+
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -165px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 90px;
+}
+.slide1 p {
+    color: white;
+    width: 200%;
+    margin-left: 106px;
+    margin-top: 200px;
+    font-size: 18px;
+}
+.slide2 {
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-left: 100%;
+}
+.slide2 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 200%;
+    margin-left: -36px;
+    text-align: center;
+    top: -199px;
+}
+.slide2 h2 {
+    
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    color: #ffffff;
+    margin-left: -200px;
+    text-align: center;
+    margin-top: -203px;
+}
+.slide2 p {
+    color: white;
+    width: 200%;
+    margin-left: 50px;
+    margin-top: -95px;
+    font-size: 18px;
+}
+button1 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+ 
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button2 {
+    width: 61%;
+   
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 3px 68px;
+    background-color: #000000;
+    color:#f2f2f2;
+    text-transform: uppercase;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+ button3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+   
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button4 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 3px 68px;
+    background-color: #000000;
+    color:#f2f2f2;
+    text-transform: uppercase;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+
+.slide3 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200%;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide3 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 300%;
+    margin-left: -170px;
+    text-align: center;
+    top: -210px;
+}
+.slide3 h2 {
+
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 300%;
+    margin-left: -165px;
+    text-align: center;
+    margin-top: -222px;
+}
+.slide3 p {
+    color: white;
+    width: 300%;
+    margin-left: 87px;
+    margin-top: -98px;
+    font-size: 18px;
+}
+button5 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+     padding: 15px 25px;
+ 
+     color: black;
+     text-transform: uppercase;
+     font-size: 18px;
+}
+button6 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 3px 68px;
+    background-color: #000000;
+    color:#f2f2f2;
+    text-transform: uppercase;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.slide4 {
+    margin-top: 0px;
+    margin-left: 300%;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide4 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    width: 200%;
+    margin-left: -90px;
+    text-align: center;
+    top: -230px;
+}
+.slide4 h2 {
+ 
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300%;
+    margin-left: -165px;
+    text-align: center;
+    margin-top: -180px;
+    color: #ffffff;
+}
+.slide4 p {
+    color: white;
+    width: 200%;
+    margin-left: 50px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+button7 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 3px 68px;
+         background-color: #000000;
+         color:#f2f2f2;
+         text-transform: uppercase;
+         font-size: 18px;
+         justify-content: center;
+         display: flex;
+         border-radius: 10px;
+}
+button8 {
+    width: 57%;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 3px 68px;
+         background-color: #000000;
+         color:#f2f2f2;
+         text-transform: uppercase;
+         font-size: 18px;
+         justify-content: center;
+         display: flex;
+         border-radius: 10px;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+      }
+      10% {
+        left: 10%;
+      }
+    
+      30% {
+        left:-100%;
+      }
+      40% {
+        left: -200;
+      }
+      50% {
+        left: -200%;
+      }
+    
+      90% {
+        left: 0%;
+      }
+      100% {
+          left: 0%;
+      }
+    }
+
+    main {
+        width: 100%;
+        height: 500vh;
+    }
+
+.about{
+    width: 100%;
+    height: 80vh;
+  
+    display: grid;
+   
+}
+
+.about-head {
+display: grid;
+grid-template-columns: 1fr 1fr ;
+
+width: 100%;
+display: flex;
+justify-content: center;
+height: 80vh;
+margin-top: 5%;
+}
+
+
+.abt-1{
+    width: 100%;
+    height: 80vh;
+   
+}
+.abt-1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.abt-1 p {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.abt-1 button {
+    background-color: brown;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    padding: 3px 68px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+   margin-left: 10%;
+}
+
+.abt-2{
+    width: 100%;
+    height: 80vh;
+    font-weight: 500;
+}
+
+.abt-2 img {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+/* games sec */
+.games-sec {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.games-sec h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.games-sec p {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.game-head{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+ .games-1{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+  
+ }
+ .games-2{
+    display: grid;
+   width: 100%;
+   height: 80vh;
+   
+ }
+ .games-3{
+    width: 100%;
+    height: 70vh;
+ 
+ }
+ .games-4{
+    width: 100%;
+    height: 60vh;
+  
+ }
+
+.games-1 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.games-2 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-3 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-4 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-1 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+
+.games-1 h2 {
+display: flex;
+color: #ffffff;
+}
+
+
+.games-1 p  {
+    color: #ffffff;
+}
+
+.game-cont {
+    margin-top: -69%;
+    margin-left: 30%;
+}
+
+.game-cont1 {
+    margin-top: -70%;
+    margin-left: 20%;
+}
+
+.game-cont2 {
+    margin-top: -70%;
+    margin-left: 20%;
+}
+.game-cont3 {
+    margin-top: -60%;
+    margin-left: 20%;
+}
+
+
+
+
+.games-2 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+.games-3 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+.games-4 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+
+.games-2 h2 {
+    display: flex;
+    color: #ffffff;
+    }
+    
+    .games-3 h2 {
+        display: flex;
+        color: #ffffff;
+        }
+        
+        .games-4 h2 {
+            display: flex;
+            color: #ffffff;
+            }
+            
+
+            .games-2 p  {
+                color: #ffffff;
+            }
+
+            .games-3 p  {
+                color: #ffffff;
+            }
+
+            .games-4 p  {
+                color: #ffffff;
+            }
+
+
+.play-main {
+    width: 100%;
+    height: 70vh;
+    background-color: #000000;
+}
+          
+.playcasion h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.playcasion p {
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.play-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+
+.playsec-1 {
+width: 100%;
+height: 30vh;
+border: 2px solid white;
+}
+
+.playsec-2 {
+    width: 100%;
+height: 30vh;
+border: 2px solid white;
+}
+
+.playsec-3 {
+    width: 100%;
+    height: 30vh; 
+    border: 2px solid white; 
+}
+
+.playsec-4 {
+    width: 100%;
+height: 30vh;
+border: 2px solid white;
+}
+
+.playsec-1 img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.playsec-2 img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.playsec-3 img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+
+.playsec-4 img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.play-head h2 {
+    color: #ffffff;
+    margin-top: 29%;
+    margin-left: 10%;
+}
+
+
+/* responsive */
+
+@media (max-width:600px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 260px;
+
+        top: 100px;
+        display: none;
+    }
+    .navlinks li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: flex;
+    }
+    header {
+        width: 100%;
+        height: 150vh;
+       
+        background-color: brown;
+        background-image: url(image/banner-bg.png);
+    }
+}
+
+@media (max-width:600px) {
+    .slider {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+    }
+    figure1 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        animation: 7s slide infinite ease;
+    }
+    
+    .slide1 {
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    .slide1 h1 {
+        color: #ffff;
+        position: absolute;
+        font-size: 40px;
+        text-transform: uppercase;
+        width: 200%;
+    display: flex;
+        text-align: center;
+        margin-left: 75%;
+   
+    }
+    .slide1 h2 {
+    
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 300%;
+        margin-left: -8px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .slide1 p {
+        color: white;
+        width: 200%;
+        margin-left: 70px;
+        margin-top: 200px;
+        font-size: 18px;
+    }
+    .slide2 {
+        position: relative;
+        width: 25%;
+        float: left;
+        margin-left: 100%;
+    }
+    .slide2 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 40px;
+        position: absolute;
+        width: 200%;
+        margin-left: 31px;
+        text-align: center;
+        top: -272px;
+    }
+    .slide2 h2 {
+        
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 300%;
+        margin-left: -22px;
+        text-align: center;
+        margin-top: -282px;
+    }
+    .slide2 p {
+        color: white;
+        width: 200%;
+        margin-left: 50px;
+        margin-top: -185px;
+        font-size: 18px;
+    }
+  
+    button2 {
+        width: 61%;
+        position: absolute;
+        margin-left: 115px;
+        margin-top: 7px;
+         padding: 3px 68px;
+         background-color: #000000;
+         color: #ffffff;
+         text-transform: uppercase;
+         font-size: 18px;
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+    }
+  
+    button4 {
+        width: 57%;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -3px;
+        padding: 3px 68px;
+         background-color: #000000;
+         color:#f2f2f2;
+         text-transform: uppercase;
+         font-size: 18px;
+         justify-content: center;
+         display: flex;
+         border-radius: 10px;
+    }
+    
+    
+    
+    .slide3 {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 200%;
+        position: relative;
+        width: 25%;
+        float: left;
+        overflow: hidden;
+    }
+    .slide3 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 40px;
+        position: absolute;
+        width: 300%;
+        margin-left: -250px;
+        text-align: center;
+        top: -230px;
+    }
+    .slide3 h2 {
+    
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #ffffff;
+        width: 300%;
+        margin-left: -165px;
+        text-align: center;
+        margin-top: -180px;
+    }
+    .slide3 p {
+        color: white;
+        width: 300%;
+        margin-left: 50px;
+        margin-top: -60px;
+        font-size: 18px;
+    }
+  
+    button6 {
+        width: 57%;
+        position: absolute;
+        margin-left: 230px;
+        margin-top: 40px;
+         padding: 15px 25px;
+         background-color: #ffffff;
+         color: black;
+         text-transform: uppercase;
+         font-size: 18px;
+    }
+    .slide4 {
+        margin-top: 0px;
+        margin-left: 224%;
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    .slide4 h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 40px;
+        position: absolute;
+        width: 200%;
+        margin-left: -26px;
+        text-align: center;
+        top: -270px;
+    }
+    .slide4 h2 {
+     
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 300%;
+        margin-left: -94px;
+        text-align: center;
+        margin-top: -282px;
+        color: #ffffff;
+    }
+    .slide4 p {
+        color: white;
+        width: 200%;
+        margin-left: -19px;
+        margin-top: -164px;
+        font-size: 18px;
+    }
+
+    button8 {
+        width: 57%;
+        position: absolute;
+        margin-left: 33px;
+        margin-top: -2px;
+         padding: 15px 25px;
+         color: #ffffff;
+         background-color: black;
+         text-transform: uppercase;
+         font-size: 18px;justify-content: center;
+         display: flex;
+         border-radius: 10px;
+         padding: 3px 68px;
+    }
+    
+    @keyframes slide {
+        0% {
+            left: 0;
+          }
+          10% {
+            left: 10%;
+          }
+        
+          30% {
+            left:-100%;
+          }
+          40% {
+            left: -200;
+          }
+          50% {
+            left: -200%;
+          }
+        
+          90% {
+            left: 0%;
+          }
+          100% {
+              left: 0%;
+          }
+        }
+    
+    
+        main {
+            width: 100%;
+            height: 100vh;
+        }
+    
+    .about{
+        width: 100%;
+        height: 80vh;
+      
+        display: grid;
+       
+    }
+    
+    .about-head {
+    display: grid;
+    grid-template-columns: 1fr ;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 5%;
+    }
+    
+    
+    .abt-1{
+        width: 100%;
+        height: 80vh;
+       
+    }
+    .abt-1 h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+    }
+    .abt-1 p {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .abt-1 button {
+        background-color: brown;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        color: #f2f2f2;
+        padding: 3px 68px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+       margin-left: 37%;
+       margin-top: -3%;
+    }
+    
+    .abt-2{
+        width: 100%;
+        height: 80vh;
+        font-weight: 500;
+    }
+    
+    .abt-2 img {
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+       
+    }
+    
+    /* games sec */
+.games-sec {
+    width: 100%;
+    height: 100vh;
+    margin-top: 71%;
+    display: grid;
+    flex-wrap: wrap;
+  
+
+}
+
+.games-sec h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+   
+}
+
+.games-sec p {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.game-head{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr ;
+    flex-wrap: wrap;
+
+}
+
+ .games-1{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    
+  
+ }
+ .games-2{
+    display: grid;
+   width: 100%;
+   height: 80vh;
+   margin-top: 41%;
+   
+ }
+ .games-3{
+    width: 100%;
+    height: 70vh;
+    margin-top: 39%;
+ 
+ }
+ .games-4{
+    width: 100%;
+    height: 60vh;
+  margin-top: 47%;
+ }
+
+.games-1 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.games-2 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-3 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-4 img{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.games-1 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+
+.games-1 h2 {
+display: flex;
+color: #ffffff;
+}
+
+
+.games-1 p  {
+    color: #ffffff;
+}
+
+.game-cont {
+    margin-top: -69%;
+    margin-left: 30%;
+}
+
+.game-cont1 {
+    margin-top: -70%;
+    margin-left: 20%;
+}
+
+.game-cont2 {
+    margin-top: -70%;
+    margin-left: 20%;
+}
+.game-cont3 {
+    margin-top: -60%;
+    margin-left: 20%;
+}
+
+
+
+
+.games-2 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+.games-3 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+.games-4 button {
+    border-color: #bbb;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+
+}
+
+
+.games-2 h2 {
+    display: flex;
+    color: #ffffff;
+    }
+    
+    .games-3 h2 {
+        display: flex;
+        color: #ffffff;
+        }
+        
+        .games-4 h2 {
+            display: flex;
+            color: #ffffff;
+            }
+            
+
+            .games-2 p  {
+                color: #ffffff;
+            }
+
+            .games-3 p  {
+                color: #ffffff;
+            }
+
+            .games-4 p  {
+                color: #ffffff;
+            }
+
+
+
+
+
+            .play-main {
+                width: 100%;
+                height: 221vh;
+                background-color: #000000;
+                margin-top: 443%;
+            }
+                      
+            .playcasion h1 {
+                color: #ffffff;
+                font-size: 3rem;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .playcasion p {
+                color: #ffffff;
+                font-size: 1rem;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .play-head {
+                display: grid;
+                grid-template-columns: 1fr ;
+                width: 100%;
+                height: 80vh;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .playsec-1 {
+            width: 100%;
+            height: 30vh;
+            border: 2px solid white;
+            }
+            
+            .playsec-2 {
+                width: 100%;
+            height: 30vh;
+            border: 2px solid white;
+            }
+            
+            .playsec-3 {
+                width: 100%;
+                height: 30vh; 
+                border: 2px solid white; 
+            }
+            
+            .playsec-4 {
+                width: 100%;
+            height: 30vh;
+            border: 2px solid white;
+            }
+            
+            .playsec-1 img {
+                display: flex;
+                justify-content: center;
+                margin-top: 9%;
+                margin-left: 42%;
+                
+            }
+            
+            .playsec-2 img {
+                display: flex;
+                justify-content: center;
+                margin-top: 6%;
+                margin-left: 42%;
+            }
+            
+            .playsec-3 img {
+               
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+                margin-left: 42%;
+            }
+            
+            
+            .playsec-4 img {
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+                margin-left: 46%;
+            }
+            
+            .play-head h2 {
+                color: #ffffff;
+                margin-top: 29%;
+                margin-left: 31%;
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+    
+    
+}
+
